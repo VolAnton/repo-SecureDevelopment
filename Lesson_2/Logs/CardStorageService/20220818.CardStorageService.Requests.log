@@ -1,0 +1,26 @@
+2022-08-18 20:23:40.2258|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-08-18 20:23:40.2973|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/cards/get-by-client-id
+QueryString: ?clientId=1
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Cookie: [Redacted]
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-08-18 20:23:43.5575|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-08-18 20:23:43.5575|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"cards":[{"cardId":"936d4a05-1bd1-4b22-a39a-08da7f97634c","cardNo":"10000000001","name":null,"cvV2":"987","expDate":"08.25"},{"cardId":"132e4b37-f1db-4363-0f6b-08da7f981aeb","cardNo":"10000000009","name":"Voloshchuk Anton","cvV2":"123","expDate":"08.24"}],"errorCode":0,"errorMessage":null} 
