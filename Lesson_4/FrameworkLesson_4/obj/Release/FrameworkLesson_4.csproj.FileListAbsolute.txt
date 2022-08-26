@@ -1,0 +1,8 @@
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\obj\Release\FrameworkLesson_4.csproj.AssemblyReference.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\obj\Release\FrameworkLesson_4.csproj.SuggestedBindingRedirects.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\obj\Release\FrameworkLesson_4.csproj.CoreCompileInputs.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\bin\Release\FrameworkLesson_4.exe.config
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\bin\Release\FrameworkLesson_4.exe
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\bin\Release\FrameworkLesson_4.pdb
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\obj\Release\FrameworkLesson_4.exe
+D:\Учеба\GB_SecureDevelopment\Lesson_4\FrameworkLesson_4\obj\Release\FrameworkLesson_4.pdb
