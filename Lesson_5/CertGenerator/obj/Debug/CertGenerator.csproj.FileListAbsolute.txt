@@ -1,0 +1,11 @@
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\bin\Debug\CertGenerator.exe.config
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\bin\Debug\CertGenerator.exe
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\bin\Debug\CertGenerator.pdb
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\bin\Debug\BouncyCastle.Crypto.dll
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\bin\Debug\BouncyCastle.Crypto.xml
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.csproj.AssemblyReference.cache
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.csproj.SuggestedBindingRedirects.cache
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.csproj.CoreCompileInputs.cache
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.csproj.CopyComplete
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.exe
+D:\VS_Projects_Creator\GB_SecureDevelopment\Lesson_5\CertGenerator\obj\Debug\CertGenerator.pdb
