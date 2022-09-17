@@ -1,0 +1,15 @@
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.csproj.AssemblyReference.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.AssemblyInfoInputs.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.AssemblyInfo.cs
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.csproj.CoreCompileInputs.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\bin\Debug\net6.0\Patterns.exe
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\bin\Debug\net6.0\Patterns.deps.json
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\bin\Debug\net6.0\Patterns.runtimeconfig.json
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\bin\Debug\net6.0\Patterns.dll
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\bin\Debug\net6.0\Patterns.pdb
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.dll
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\refint\Patterns.dll
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.pdb
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\Patterns.genruntimeconfig.cache
+D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\Patterns\obj\Debug\net6.0\ref\Patterns.dll
