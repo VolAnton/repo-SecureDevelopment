@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "tmoQXXwEz8CBTwkglBAPHf1qvwDjs1lMRimcQIuKq/A=",
+  "Source": "CardStorageService",
+  "BasePath": "_content/CardStorageService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
