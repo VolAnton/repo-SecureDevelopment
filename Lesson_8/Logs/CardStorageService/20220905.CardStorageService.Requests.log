@@ -1,0 +1,402 @@
+2022-09-05 12:18:48.2667|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/client/create
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer Enter user name: root1 Enter user password: test eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 104
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:18:48.7585|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody:  
+2022-09-05 12:18:48.7585|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted] 
+2022-09-05 12:20:53.4601|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/client/create
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 104
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:20:54.3167|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "surname": "Волощук",
+  "firstName": "Антон",
+  "patronymic": "Анатольевич"
+} 
+2022-09-05 12:20:58.1178|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:20:58.1178|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"clientId":1,"errorCode":0,"errorMessage":null} 
+2022-09-05 12:22:33.0601|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:22:33.1329|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "volant",
+  "password": "volant"
+} 
+2022-09-05 12:22:33.2614|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:22:33.2614|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"Login":["'Login' неверный email адрес."]} 
+2022-09-05 12:22:59.7839|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 57
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:22:59.8078|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample@gmail.com",
+  "password": "volant"
+} 
+2022-09-05 12:23:01.1669|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:23:01.1669|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":1,"sessionInfo":null} 
+2022-09-05 12:24:27.2736|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/cards/create
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 136
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:24:27.2933|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "clientId": 1,
+  "cardNo": "1000000000001",
+  "name": "Voloshchuk Anton",
+  "cvV2": "667",
+  "expDate": "2025-09-05T09:23:52.259Z"
+} 
+2022-09-05 12:24:27.5290|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:24:27.5290|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"cardId":"00aefcb0-6a6a-45cf-8166-08da8f206e07","errorCode":0,"errorMessage":null} 
+2022-09-05 12:55:42.3571|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 55
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:55:42.3696|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample@gmail.com",
+  "password": "sudo"
+} 
+2022-09-05 12:55:42.3696|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:55:42.3696|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"Password":["'Password' должно быть длиной от 5 до 50 символов. Количество введенных символов: 4."]} 
+2022-09-05 12:56:01.9555|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:56:01.9565|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample@gmail.com",
+  "password": "12345"
+} 
+2022-09-05 12:56:01.9844|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:56:01.9844|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":1,"sessionInfo":null} 
+2022-09-05 12:56:44.0543|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:56:44.0543|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample@gmail.com",
+  "password": "32167"
+} 
+2022-09-05 12:56:44.0543|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:56:44.0543|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":1,"sessionInfo":null} 
+2022-09-05 12:57:12.0858|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 57
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:57:12.0858|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample1@gmail.com",
+  "password": "32167"
+} 
+2022-09-05 12:57:12.0858|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:57:12.0858|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":1,"sessionInfo":null} 
+2022-09-05 12:57:24.4504|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-05 12:57:24.4504|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/auth/session
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:57:24.4504|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted] 
+2022-09-05 12:58:11.8875|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 54
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:58:11.8875|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "root1@gmail.com",
+  "password": "test"
+} 
+2022-09-05 12:58:11.8875|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:58:11.8875|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"Password":["'Password' должно быть длиной от 5 до 50 символов. Количество введенных символов: 4."]} 
+2022-09-05 12:58:25.9944|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Content-Length: 55
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:58:25.9944|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "root1@gmail.com",
+  "password": "32167"
+} 
+2022-09-05 12:58:25.9944|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-05 12:58:26.0039|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":1,"sessionInfo":null} 
+2022-09-05 12:58:38.1529|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-05 12:58:38.1529|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/auth/session
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjEiLCJuYmYiOjE2NjIzNjk0MDMsImV4cCI6MTY2MjM3MDMwMywiaWF0IjoxNjYyMzY5NDAzfQ.eb6nYOSVpwRE0NBOE_BQfadrWiXH5XkWdWTanUkqLbw
+Connection: keep-alive
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-05 12:58:38.1529|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted] 

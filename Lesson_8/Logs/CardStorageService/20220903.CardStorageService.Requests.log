@@ -1,0 +1,31 @@
+2022-09-03 09:37:16.4145|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Content-Length: 47
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-03 09:37:16.7154|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "string",
+  "password": "string"
+} 
+2022-09-03 09:37:16.8249|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 400
+Content-Type: application/json; charset=utf-8 
+2022-09-03 09:37:16.8249|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"Login":["'Login' неверный email адрес."]} 

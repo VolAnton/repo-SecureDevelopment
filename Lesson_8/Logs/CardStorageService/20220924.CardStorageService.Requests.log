@@ -1,0 +1,135 @@
+2022-09-24 08:59:28.7664|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: POST
+Scheme: http
+PathBase: 
+Path: /api/auth/login
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Connection: keep-alive
+Content-Length: 56
+Content-Type: application/json
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Origin: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-24 08:59:29.0113|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|RequestBody: {
+  "login": "sample@gmail.com",
+  "password": "12345"
+} 
+2022-09-24 08:59:31.0716|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+X-Session-Token: [Redacted]
+Content-Type: application/json; charset=utf-8 
+2022-09-24 08:59:31.0730|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"status":0,"sessionInfo":{"sessionId":6,"sessionToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJzYW1wbGVAZ21haWwuY29tIiwibmJmIjoxNjYzOTk5MTcwLCJleHAiOjE2NjQwMDAwNzAsImlhdCI6MTY2Mzk5OTE3MH0.m7RbJfomcrKD668J3xbwAQ6thM6VUrhzLtPS-MbNMvM","account":{"accountId":2,"eMail":"sample@gmail.com","locked":false,"firstName":"Антон","lastName":"Волощук","secondName":"Анатольевич"}}} 
+2022-09-24 08:59:48.3518|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-24 08:59:48.3518|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/auth/session
+QueryString: 
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJzYW1wbGVAZ21haWwuY29tIiwibmJmIjoxNjYzOTk5MTcwLCJleHAiOjE2NjQwMDAwNzAsImlhdCI6MTY2Mzk5OTE3MH0.m7RbJfomcrKD668J3xbwAQ6thM6VUrhzLtPS-MbNMvM
+Connection: keep-alive
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-24 08:59:48.4171|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-24 08:59:48.4171|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"sessionId":6,"sessionToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJzYW1wbGVAZ21haWwuY29tIiwibmJmIjoxNjYzOTk5MTcwLCJleHAiOjE2NjQwMDAwNzAsImlhdCI6MTY2Mzk5OTE3MH0.m7RbJfomcrKD668J3xbwAQ6thM6VUrhzLtPS-MbNMvM","account":{"accountId":2,"eMail":"sample@gmail.com","locked":false,"firstName":"Антон","lastName":"Волощук","secondName":"Анатольевич"}} 
+2022-09-24 08:59:56.4810|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-24 08:59:56.4810|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /api/cards/get-by-client-id
+QueryString: ?clientId=1
+Accept: text/plain
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwidW5pcXVlX25hbWUiOiJzYW1wbGVAZ21haWwuY29tIiwibmJmIjoxNjYzOTk5MTcwLCJleHAiOjE2NjQwMDAwNzAsImlhdCI6MTY2Mzk5OTE3MH0.m7RbJfomcrKD668J3xbwAQ6thM6VUrhzLtPS-MbNMvM
+Connection: keep-alive
+Host: localhost:58273
+Referer: [Redacted]
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+Sec-Fetch-Site: [Redacted]
+Sec-Fetch-Mode: [Redacted]
+Sec-Fetch-Dest: [Redacted] 
+2022-09-24 08:59:56.5450|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8 
+2022-09-24 08:59:56.5450|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|ResponseBody: {"cards":[{"cardId":"7aae3bad-17e3-4e16-d934-08da989fa207","cardNo":"00000000000000000001","name":"Волощук Антон Анатольевич","cvV2":"996","expDate":"17.09.2023 11:25:25"}],"errorCode":0,"errorMessage":null} 
+2022-09-24 10:37:19.7591|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-24 10:37:19.7873|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ClientServiceProtos.ClientService/Create
+QueryString: 
+Host: localhost:5001
+User-Agent: grpc-dotnet/2.48.0 (.NET 6.0.9; CLR 6.0.9; net6.0; windows; x64)
+:method: [Redacted]
+Content-Type: application/grpc
+Grpc-Accept-Encoding: [Redacted]
+TE: trailers 
+2022-09-24 10:38:54.6773|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/grpc 
+2022-09-24 10:45:58.0767|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-24 10:45:58.1059|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ClientServiceProtos.ClientService/Create
+QueryString: 
+Host: localhost:5001
+User-Agent: grpc-dotnet/2.48.0 (.NET 6.0.9; CLR 6.0.9; net6.0; windows; x64)
+:method: [Redacted]
+Content-Type: application/grpc
+Grpc-Accept-Encoding: [Redacted]
+TE: trailers 
+2022-09-24 10:46:04.2021|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/grpc 
+2022-09-24 10:47:35.2018|0|DEBUG|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Unrecognized Content-Type for body. 
+2022-09-24 10:47:35.2314|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /ClientServiceProtos.ClientService/Create
+QueryString: 
+Host: localhost:5001
+User-Agent: grpc-dotnet/2.48.0 (.NET 6.0.9; CLR 6.0.9; net6.0; windows; x64)
+:method: [Redacted]
+Content-Type: application/grpc
+Grpc-Accept-Encoding: [Redacted]
+TE: trailers 
+2022-09-24 10:47:36.4924|0|INFO|Microsoft.AspNetCore.HttpLogging.HttpLoggingMiddleware|Response:
+StatusCode: 200
+Content-Type: application/grpc 
