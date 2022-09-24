@@ -1,0 +1,3 @@
+2022-09-17 14:25:58.7955|0|ERROR|CardStorageService.Controllers.CardController|Create card error. System.Exception: Client not found
+   at CardStorageService.Services.Impl.CardRepository.Create(Card data) in D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\CardStorageService\Services\Impl\CardRepository.cs:line 29
+   at CardStorageService.Controllers.CardController.Create(CreateCardRequest request) in D:\Учеба\GB_SecureDevelopment\Lesson_6\Lesson_6\CardStorageService\Controllers\CardController.cs:line 69
